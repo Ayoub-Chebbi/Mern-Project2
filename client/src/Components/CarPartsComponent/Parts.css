@@ -1,0 +1,31 @@
+.container-parts{
+    display: flex;
+    border: 1px solid transparent;
+    align-items: center;
+    justify-content: space-between;
+    padding: 27px 130px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.btn-edit{
+    border: 1px solid transparent;
+    background-color: #000D6B;
+    color: white;
+    border-radius: 20px;
+    padding: 5px 15px;
+    transition: all 300ms ease-in-out;
+}
+
+.btn-edit:hover{
+    background-color: white;
+    border-color: black;
+    color: #000D6B;
+}

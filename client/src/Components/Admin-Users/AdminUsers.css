@@ -1,0 +1,12 @@
+table tr td{
+    border: 1px solid black;
+    padding: 8px 15px;
+}
+
+.flex-admin_users{
+    display: flex;
+}
+
+.users-info{
+    padding: 155px;
+}
